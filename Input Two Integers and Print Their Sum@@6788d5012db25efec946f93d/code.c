@@ -2,6 +2,7 @@
 int main(){
     int a,b;
     scanf("%d %d", &a &b);
-    printf("You entered: %d\n", a + b);
+    int sum = a + b;
+    printf("You entered: %d\n", sum);
     return 0;
 }
