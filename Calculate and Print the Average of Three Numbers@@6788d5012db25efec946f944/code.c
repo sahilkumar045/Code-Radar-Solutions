@@ -4,6 +4,6 @@ int main(){
     double Average;
     scanf("%d %d %d",&a,&b,&c);
     Average = (a + b + c) / 3.0;
-    printf("Average: %.2d\n", Average);
+    printf("Average: %.2lf\n", Average);
     return 0;
 }
