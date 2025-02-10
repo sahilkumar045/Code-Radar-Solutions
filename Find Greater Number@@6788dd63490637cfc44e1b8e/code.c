@@ -4,12 +4,9 @@ int main(){
     scanf("%d %d",&5,&10);
     if(5>10){
         printf("5");
-    }
-    else if(10>5){
-        printf("10");
-    }
+    } 
     else{
-        printf("Both are equal");
+        printf("10")
     }
     return 0;
 }
