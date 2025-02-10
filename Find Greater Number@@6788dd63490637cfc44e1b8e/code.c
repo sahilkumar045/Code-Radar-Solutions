@@ -1,12 +1,15 @@
 #include<stdio.h>
 int main(){
-    int 5,10;
-    scanf("%d %d",&5,&10);
-    if(5>10){
-        printf("[5]");
-    } 
+    int num1,num2;
+    scanf("%d %d",&num1,&num2);
+    if(num1>num2){
+        printf("%d\n",num1);
+    }
+    else if(num2>num1){
+        printf("%d\n",num2);
+    }
     else{
-        printf("[10]")
+        printf("Both are equal");
     }
     return 0;
 }
