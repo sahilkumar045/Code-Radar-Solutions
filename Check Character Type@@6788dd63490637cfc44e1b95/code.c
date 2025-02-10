@@ -14,4 +14,5 @@ int main(){
     else{
         printf("Character");
     }
+    return 0;
 }
