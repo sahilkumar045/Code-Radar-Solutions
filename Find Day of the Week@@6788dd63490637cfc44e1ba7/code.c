@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int day;
-     day(1<=day<_7);
+    (1<=day<_7);
     scanf("%d",&day);
     if(day=='1'){
         printf("Monday");
