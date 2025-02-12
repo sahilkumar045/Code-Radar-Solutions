@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d", &a);
-    if(a>0){
+    int num;
+    scanf("%d",&num);
+    if(num>0){
         printf("Positive");
     }
-    else if(a<0){
+    else if(num<0){
         printf("Negative");
     }
     else{
