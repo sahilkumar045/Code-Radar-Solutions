@@ -2,7 +2,7 @@
 int main(){
     flaot a;
     scanf("%f", &a);
-    printf("You entered: %2.f\n",a);
+    printf("You entered: %.2\n", a);
     return 0;
 }
 
