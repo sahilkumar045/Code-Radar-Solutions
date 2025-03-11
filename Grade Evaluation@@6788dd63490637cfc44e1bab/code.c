@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    char grade;
-    scanf("%c",&grade);
-    switch(grade){
+    char ch;
+    scanf("%c",&ch);
+    switch(ch){
         case 'A':
             printf("Excellent\n");
             break;
