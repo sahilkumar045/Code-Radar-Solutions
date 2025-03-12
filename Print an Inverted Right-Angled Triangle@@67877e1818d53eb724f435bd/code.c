@@ -7,12 +7,6 @@ int main() {
     printf("Enter the number of rows: ");
     scanf("%d", &n);
 
-    // Validate input (must be positive)
-    if (n <= 0) {
-        printf("Please enter a positive integer.\n");
-        return 1; // Exit with error code
-    }
-
     // Outer loop for rows
     for (int i = n; i >= 1; i--) {  
         // Inner loop for printing stars
