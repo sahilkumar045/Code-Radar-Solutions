@@ -6,9 +6,10 @@ int main(){
     for(int i = 2; i*i<=n; i++){
         if(n%i==0){
             isprime = 0;
+             break;
         }
     }
-    if(isprime==1){
+    if(isprime){
         printf("Prime");
     }
     else{
