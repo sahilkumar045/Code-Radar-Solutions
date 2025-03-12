@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
     int n;
-    printf("Enter Number:");
     scanf("%d", &n);
     int isprime = 1;
     for(int i = 2; i*i<n; i++){
