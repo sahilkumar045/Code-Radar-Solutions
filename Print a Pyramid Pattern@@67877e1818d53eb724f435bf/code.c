@@ -6,7 +6,7 @@ int main(){
         for(int j=n; j>i; j--){// for left space
             printf(" ");
         }
-        for(int k=1; k<=i; k++){// for printing star and middle space
+        for(int k=1; k<=i; k++){// for printing star and middle space and right space
             printf("*");
         }
         printf("\n");
