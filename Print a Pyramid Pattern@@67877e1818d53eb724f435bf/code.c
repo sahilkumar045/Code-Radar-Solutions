@@ -7,7 +7,7 @@ int main(){
             printf(" ");
         }
         for(int k=1; k<=i; k++){// for printing star and middle space
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
