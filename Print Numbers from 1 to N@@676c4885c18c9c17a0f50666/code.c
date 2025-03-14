@@ -3,12 +3,14 @@
 int main() {
     int n;
     scanf("%d", &n);
+    
     for (int i = 1; i <= n; i++) {
         printf("%d", i);
         if (i < n) {
-            printf(" ");
+            printf(" "); // Print space only if it's not the last number
         }
     }
-    printf("\n");  // Adding a newline for better output formatting
+
+    printf("\n"); // Add a newline for better formatting
     return 0;
 }
