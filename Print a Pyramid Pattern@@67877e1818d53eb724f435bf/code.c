@@ -11,13 +11,18 @@ int main() {
             printf(" ");
             j++;
         }
+
         int k = 1;
         while(k <= (2 * i - 1)){
             printf("*");
+            k++;
         }
+
+        printf("\n");
+        i++;
     }
-    printf("\n");
-    i++;
+
+    
     return 0;
 }
     
