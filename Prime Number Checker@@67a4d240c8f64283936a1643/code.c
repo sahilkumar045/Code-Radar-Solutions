@@ -10,14 +10,13 @@ int isPrime(int num) {
 }
 
 int main() {
-    int t;
-    scanf("%d", &t);
-    
+    int t, num;
+    scanf("%d", &t);  // Read number of test cases
+
     while (t--) {
-        int num;
-        scanf("%d", &num);
-        printf("%d\n", isPrime(num));
+        scanf("%d", &num);  // Read each number
+        printf("%d\n", isPrime(num));  // Print 1 if prime, 0 otherwise
     }
-    
+
     return 0;
 }
