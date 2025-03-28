@@ -1,18 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <ctype.h>
+void checkCharacter(char ch){
+    char lower = tolower(ch);
+    if((lower >= 'a' && lower <='z')){
+        if(lower=='a'||lower=='e'||lower=='i'||lower=='o'||lower=='u'){
+            printf("Vowel\n");
+        }else{
+            printf("Consonant\n");
+        }
+    }
+    else if(ch >= '0' && ch <='9'){
+        printf("Digit\n");
+    }else {
+        printf("Special Character\n");
+    }
+}
 int main(){
-    int num;
-    scanf("%d",&num);
-    if(num=='a'||num=='e'||num=='i'||num=='o'||num=='u' num=='A'|| num=='E'||num=='I'||num=='O'||num=='U'){
-        printf("Vowel");
-    }
-    else if(num!='a'&&num!='e'&&num!='i'&&num!='o'&&num!='u'num!='A'&&num!='E'&&num!='I'&&num!='O'&&num!='U'){
-        printf("Consonant");
-    }
-    else if(num>=0&&num<=9){
-        printf("Digit");
-    }
-    else{
-        printf("Character");
-    }
+    char ch;
+    scanf("%c",&ch);
+    checkCharacter(ch);
     return 0;
 }
